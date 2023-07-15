@@ -1,41 +1,34 @@
 <template>
-    <div class="container">
-      <div class="flex">
-        <div class="card">Online Sessions</div>
-        <div class="card-large">Onsite Sessions</div>
-        <div class="card">Advanced Package</div>
+  <div class="bg-[url('../assets/bg/BG2.png')] bg-no-repeat bg-center">
+    <div class="w-full justify-center">
+      <div class="w-full flex mx-auto justify-center">
+
+        <div class="w-1/4 h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl text-center dropshadow ">
+          <p class="text-3xl mb-7 font-bold">Online Sessions</p>
+          <p class="text-lg">Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia
+            aut unde voluptas. Qui tempora enim ex dolor animi ab deleniti laudantium.</p>
+        </div>
+
+        <div class="w-1/4 h-96 p-7 bg-[#6DB3B8] m-4 rounded-3xl text-center dropshadow">
+          <p class="text-3xl mb-7 font-bold">Onsite Sessions</p>
+          <p class="text-lg">Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia 
+            aut unde voluptas. Qui tempora enim ex dolor animi ab deleniti laudantium.</p>
+        </div>
+
+        <div class="w-1/4 h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl text-center dropshadow">
+          <p class="text-3xl mb-7 font-bold">Advanced Package</p>
+          <p class="text-lg">Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia 
+            aut unde voluptas. Qui tempora enim ex dolor animi ab deleniti laudantium.</p>
+        </div>
+        
       </div>
     </div>
-  </template>
-  
-  <style>
-  .container {
-    display: flex;
-    justify-content: center;
+  </div>
+</template>
 
-  }
-  
-  .card {
-    width: 250px;
-    height: 350px;
-    background-color: #A7D5D8;
-    margin: 10px;
-    border-radius: 12%;
-    text-align: center;
-  }
-  
-  .card-large {
-    width: 300px;
-    height: 450px;
-    background-color: #6DB3B8;
-    margin: 10px;
-    border-radius: 12%;
-    text-align: center;
+<style scoped>
+.dropshadow {
+  box-shadow: 8px 8px 3px 0 rgba(0, 0, 0, 0.25);
+}
+</style>
 
-  }
-  
-  .flex {
-    display: flex;
-    align-items: center;
-  }
-  </style>

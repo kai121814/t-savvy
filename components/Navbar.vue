@@ -1,37 +1,15 @@
 <template>
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+  <div class="flex bg-gradient-to-b from-[#9FBE6C] to-[#DBDFAA] custom-shadow px-10">
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#home">Home</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#news">News</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#contact">Contact</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#about">About</a>
   </div>
 </template>
 
 <style scoped>
-/* background for navbar */
-.topnav {
-  overflow: hidden;
-  background-color: #BAD38F;
-  border-radius: 5px;
+.custom-shadow {
+  --shadow-opacity: 0.35;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, var(--shadow-opacity));
 }
-
-/* navbar content */
-.topnav a {
-  float: left;
-  color: #000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: sans-serif;
-}
-
-/* navbar hover */
-.topnav a:hover {
-  background-color: #869769;
-  color: black;
-}
-
 </style>

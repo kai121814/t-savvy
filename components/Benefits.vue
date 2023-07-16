@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#B3C890] w-full py-20">
+    <div class="BG bg-[#B3C890] w-full py-20">
         <div class="bg-[#BAE9C7] ml-10 rounded-l-3xl p-5">
             <h1 class="text-5xl text-center text-green-800 py-4 uppercase font-black">like what you see?</h1>
             <div class="flex px-5 pb-10">
@@ -28,5 +28,8 @@
 
 .dropshadow {
   box-shadow: 7px 7px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.BG{
+  padding-bottom: 20%;
 }
 </style>

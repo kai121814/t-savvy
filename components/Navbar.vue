@@ -1,9 +1,11 @@
 <template>
   <div class="flex bg-gradient-to-b from-[#9FBE6C] to-[#DBDFAA] custom-shadow px-10">
     <a class="block px-10 py-3 text-black uppercase font-bold" href="#home">Home</a>
-    <a class="block px-10 py-3 text-black uppercase font-bold" href="#news">News</a>
-    <a class="block px-10 py-3 text-black uppercase font-bold" href="#contact">Contact</a>
-    <a class="block px-10 py-3 text-black uppercase font-bold" href="#about">About</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#news">Lessons</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#contact">Benefits</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#about">Packages</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#about">Testimonies</a>
+    <a class="block px-10 py-3 text-black uppercase font-bold" href="#about">Contacts</a>
   </div>
 </template>
 

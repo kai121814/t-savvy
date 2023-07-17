@@ -1,6 +1,6 @@
 <template>
   <div class="BG container mx-auto">
-    <h1 class="my-10 text-6xl font-bold text-[#4AA3AA] "><span class="text-outline"></span><span
+    <h1 class=" text-6xl font-bold text-[#4AA3AA] "><span class="text-outline"></span><span
           class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA]">Testimonies</span></h1>
     <div class="border align-end relative custom-border">
       <div class="circle"></div>
@@ -23,15 +23,19 @@
 }
 
 .circle {
-  @apply w-52 h-52 rounded-full bg-green-300 -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2;
+  @apply w-52 h-52 rounded-full bg-[#B3C890] -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2;
 }
 
 .circle2 {
-  @apply w-52 h-52 rounded-full bg-green-300 -mr-8 absolute top-1/2 right-0 transform -translate-y-1/2;
+  @apply w-52 h-52 rounded-full bg-[#B3C890] -mr-8 absolute top-1/2 right-0 transform -translate-y-1/2;
 }
 
 .custom-border {
-  @apply border border-green-300 bg-yellow-300 py-12 px-5 rounded-md relative mb-8 w-11/12 font-sans my-10 text-3xl;
+  @apply border border-4  border-[#B3C890] bg-[#DBDFAA] py-12 px-5 rounded-md relative mb-8 w-11/12 font-sans my-10 text-3xl;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .align-end {

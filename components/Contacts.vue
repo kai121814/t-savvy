@@ -1,3 +1,24 @@
+<script setup>
+import { ref } from 'vue';
+
+const name = ref('');
+const email = ref('');
+const message = ref('');
+
+const submitForm = (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  // Perform your form submission logic here, such as sending the data to an API or processing it in any other way
+
+  // Clear form fields
+  name.value = '';
+  email.value = '';
+  message.value = '';
+
+  // Redirect back to the page after form submission (adjust the URL as needed)
+  window.location.href = '/';
+};
+</script>
 <template>
   <div class="bg-black text-white">
     <footer class="contact-section flex justify-between items-start">
@@ -13,7 +34,7 @@
       </div>
       <div class="column">
         <h1 class="text-center">Contact Us</h1>
-        <form>
+        <form action="https://formspree.io/f/xgejvwgd" method="POST">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" class="h-8" required>
           <label for="email">Email:</label>
@@ -26,8 +47,8 @@
       <div class="column">
         <h1 class="text-center">Follow Us</h1>
         <div class="social-icons text-black">
-          <p class="btn bg-teal-700">Facebook</p>
-          <p class="btn bg-teal-700 text-black">Instagram</p>
+          <p class="btn bg-teal-700 cursor-pointer">Facebook</p>
+          <p class="btn bg-teal-700 text-black cursor-pointer">Instagram</p>
         </div>
       </div>
     </footer>

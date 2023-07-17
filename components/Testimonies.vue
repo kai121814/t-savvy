@@ -1,9 +1,9 @@
 <template>
-  <div class="BG container mx-auto">
+  <div class="BG flex flex-col items-center mx-auto">
     <h1 class=" text-6xl font-bold text-[#4AA3AA] "><span class="text-outline"></span><span
           class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA]">Testimonies</span></h1>
     <div class="border align-end relative custom-border">
-      <div class="circle"></div>
+      <div class="w-52 h-52 rounded-full bg-[#B3C890] -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2"></div>
       This Code Camp has helped me get the job of my dreams.
     </div>
     <div class="border align-left relative custom-border">
@@ -11,19 +11,16 @@
       This Code Camp has helped me get the job of my dreams.
     </div>
     <div class="border align-end relative custom-border">
-      <div class="circle"></div>
+      <div class="w-52 h-52 rounded-full bg-[#B3C890] -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2 "></div>
       This Code Camp has helped me get the job of my dreams.
     </div>
   </div>
 </template>
 
 <style>
-.container {
-  @apply flex flex-col items-center mt-36;
-}
 
 .circle {
-  @apply w-52 h-52 rounded-full bg-[#B3C890] -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2;
+  @apply w-52 h-52 rounded-full bg-[#B3C890] -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2 ;
 }
 
 .circle2 {

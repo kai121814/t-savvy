@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar fixed top-0 left-0 w-full bg-gradient-to-b from-[#9FBE6C] to-[#DBDFAA] shadow-lg">
+  <div class="navbar fixed top-0 left-0 w-full bg-gradient-to-b from-[#9FBE6C] to-[#DBDFAA] shadow-lg z-50">
     <a class="navbar-link" href="#home">Home</a>
     <a class="navbar-link" href="#lessons">Lessons</a>
     <a class="navbar-link" href="#benefits">Benefits</a>

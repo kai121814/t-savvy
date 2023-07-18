@@ -1,5 +1,5 @@
 <template>
-  <div class="BG flex flex-col items-center mx-auto">
+  <div class="BG flex flex-col items-center mx-auto cursor-default" id="testimonies">
     <h1 class=" text-6xl font-bold text-[#4AA3AA] "><span class="text-outline"></span><span
           class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA]">Testimonies</span></h1>
     <div class="border align-end relative custom-border">
@@ -47,6 +47,7 @@
   @apply uppercase text-teal-500 outline-white outline-2 text-5xl font-bold;
 }
 .BG{
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 </style>

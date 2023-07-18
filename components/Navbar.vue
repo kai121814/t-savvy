@@ -1,11 +1,20 @@
+<script setup>
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+</script>
+
 <template>
-  <div class="navbar fixed top-0 left-0 w-full bg-gradient-to-b from-[#9FBE6C] to-[#DBDFAA] shadow-lg z-50">
-    <a class="navbar-link" href="#home">Home</a>
-    <a class="navbar-link" href="#lessons">Lessons</a>
-    <a class="navbar-link" href="#benefits">Benefits</a>
-    <a class="navbar-link" href="#packages">Packages</a>
-    <a class="navbar-link" href="#testimonies">Testimonies</a>
-    <a class="navbar-link" href="#contacts">Contacts</a>
+  <div class="navbar fixed top-0 left-0 w-full bg-gradient-to-b from-[#9FBE6C] to-[#DBDFAA] shadow-lg z-50 cursor-pointer">
+    <a class="navbar-link" @click="scrollToSection('home')">Home</a>
+    <a class="navbar-link" @click="scrollToSection('lessons')">Lessons</a>
+    <a class="navbar-link" @click="scrollToSection('benefits')">Benefits</a>
+    <a class="navbar-link" @click="scrollToSection('packages')">Packages</a>
+    <a class="navbar-link" @click="scrollToSection('testimonies')">Testimonies</a>
+    <a class="navbar-link" @click="scrollToSection('contacts')">Contacts</a>
   </div>
 </template>
 

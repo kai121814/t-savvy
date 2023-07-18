@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <Carousel :autoplay="true" :loop="true" :perPage="1" :navigationEnabled="true">
       <Slide v-for="(item, index) in carouselItems" :key="index">
         <img :src="item.image" alt="Carousel Slide" class="w-full">

@@ -20,7 +20,7 @@ const submitForm = (event) => {
 };
 </script>
 <template>
-  <div class="bg-black text-white">
+  <div class="bg-black text-white cursor-default" id="contacts">
     <footer class="contact-section flex justify-between items-start">
       <div class="column">
         <h1 class="text-center">About Us</h1>

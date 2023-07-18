@@ -1,5 +1,5 @@
 <template>
-    <div class="BG bg-[#B3C890] w-full">
+    <div class="BG bg-[#B3C890] w-full cursor-default pt-20" id="benefits">
         <div class="bg-[#BAE9C7] ml-10 rounded-l-3xl p-5 dropshadow1">
             <h1 class="text-5xl text-center text-green-800 py-4 uppercase font-black">like what you see?</h1>
             <div class="flex px-5 pb-10">
@@ -9,7 +9,7 @@
                         enim ex dolor animi ab deleniti laudantium.</p>
                     <p>Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia aut unde voluptas.</p>
                     <span>
-                        <p class="text-2xl font-bold mt-20">See more ></p>
+                        <p class="text-2xl font-bold mt-20 cursor-pointer">See more ></p>
                     </span>
                 </div>
                 <div

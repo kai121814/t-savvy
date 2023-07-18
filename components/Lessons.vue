@@ -1,5 +1,5 @@
 <template>
-  <div class="BG w-full pt-1 bg-[url('../assets/bg/BG.png')] bg-no-repeat bg-cover">
+  <div class="BG w-full pt-1 bg-[url('../assets/bg/BG.png')] bg-no-repeat bg-cover cursor-default" id="lessons">
     <div class="flex flex-col items-center mx-auto w-full">
       <h1 class="my-10 text-6xl font-bold text-[#4AA3AA] "><span class="text-outline">WHAT WE </span><span
           class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA] text-animation">
@@ -41,7 +41,6 @@
 }
 
 .BG {
-  padding-bottom: 5%;
   padding-top: 5%;
 }
 

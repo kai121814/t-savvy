@@ -1,7 +1,7 @@
 <template>
   <div class="BG w-full pt-1 bg-[url('../assets/bg/BG.png')] bg-no-repeat bg-cover cursor-default" id="lessons">
-    <div class="flex flex-col items-center mx-auto w-full">
-      <h1 class="my-10 text-6xl font-bold text-[#4AA3AA] "><span class="text-outline">WHAT WE </span><span
+    <div class="flex flex-col text-center w-full">
+      <h1 class="mt-16 text-6xl font-bold text-[#4AA3AA] "><span class="text-outline">WHAT WE </span><span
           class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA] text-animation">
           <span class="text-animation">T</span>
           <span class="text-animation">E</span>
@@ -10,20 +10,25 @@
           <span class="text-animation">H</span></span></h1>
 
       <!-- boxes content -->
-      <div class="flex w-full items-stretch">
-        <div class="bg-[#DBDFAA] self-center w-1/5 h-72 m-3 p-5 flex text-center justify-center blue-shadow animate-zoom">
+      <div class="lg:flex w-full items-stretch">
+        <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-72 m-3 p-5 flex text-center justify-center 
+          blue-shadow animate-zoom">
           <p class="text-[#076269] font-bold text-2xl">FIGMA</p>
         </div>
-        <div class="bg-[#DBDFAA] self-center w-1/5 h-80 m-3 p-5 flex text-center justify-center blue-shadow animate-zoom">
+        <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-80 m-3 p-5 flex text-center justify-center 
+          blue-shadow animate-zoom">
           <p class="text-[#076269] font-bold text-2xl">HTML, CSS JAVASCRIPT</p>
         </div>
-        <div class="bg-[#DBDFAA] self-center w-1/5 h-96 m-3 p-5 flex text-center justify-center blue-shadow animate-zoom">
+        <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-96 m-3 p-5 flex text-center justify-center 
+          blue-shadow animate-zoom">
           <p class="text-[#076269] font-bold text-2xl">NUXT.JS TAILWINDCSS TYPESCRIPT</p>
         </div>
-        <div class="bg-[#DBDFAA] self-center w-1/5 h-80 m-3 p-5 flex text-center justify-center blue-shadow animate-zoom">
+        <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-80 m-3 p-5 flex text-center justify-center 
+          blue-shadow animate-zoom">
           <p class="text-[#076269] font-bold text-2xl">PYTHON</p>
         </div>
-        <div class="bg-[#DBDFAA] self-center w-1/5 h-72 m-3 p-5 flex text-center justify-center blue-shadow animate-zoom">
+        <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-72 m-3 p-5 flex text-center justify-center 
+          blue-shadow animate-zoom">
           <p class="text-[#076269] font-bold text-2xl">DJANGO</p>
         </div>
       </div>

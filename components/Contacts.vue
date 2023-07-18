@@ -1,39 +1,18 @@
-<script setup>
-import { ref } from 'vue';
-
-const name = ref('');
-const email = ref('');
-const message = ref('');
-
-const submitForm = (event) => {
-  event.preventDefault(); // Prevent default form submission
-
-  // Perform your form submission logic here, such as sending the data to an API or processing it in any other way
-
-  // Clear form fields
-  name.value = '';
-  email.value = '';
-  message.value = '';
-
-  // Redirect back to the page after form submission (adjust the URL as needed)
-  window.location.href = '/';
-};
-</script>
 <template>
-  <div class="bg-black text-white cursor-default" id="contacts">
-    <footer class="contact-section flex justify-between items-start">
-      <div class="column">
-        <h1 class="text-center">About Us</h1>
+  <div class="bg-black text-white cursor-default w-full" id="contacts">
+    <footer class="contact-section flex flex-wrap justify-between">
+      <div class="column mb-8">
+        <h1 class="text-center mb-2 text-3xl font-bold">About Us</h1>
         <div class="intro">
-        <p class="mt-5 text-2xl font-bold">Welcome to Tech Savvy</p>
-        <p class="mt-5 font-bold">Address</p>
-        <p >In front of Ozamiz City Hall, 2nd floor of Mercury Drug/SSS, Ozamiz, Philippines</p>
-        <p class="mt-5 font-bold">Email Address</p>
-        <p>techsavvy@gmail.com</p>
+          <p class="mt-5 text-2xl font-bold">Welcome to Tech Savvy</p>
+          <p class="mt-5 font-bold">Address</p>
+          <p>In front of Ozamiz City Hall, 2nd floor of Mercury Drug/SSS, Ozamiz, Philippines</p>
+          <p class="mt-5 font-bold">Email Address</p>
+          <p>techsavvy@gmail.com</p>
+        </div>
       </div>
-      </div>
-      <div class="column">
-        <h1 class="text-center">Contact Us</h1>
+      <div class="column mb-8">
+        <h1 class="text-center mb-2 text-3xl font-bold">Contact Us</h1>
         <form action="https://formspree.io/f/xgejvwgd" method="POST">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" class="h-8" required>
@@ -45,7 +24,7 @@ const submitForm = (event) => {
         </form>
       </div>
       <div class="column">
-        <h1 class="text-center">Follow Us</h1>
+        <h1 class="text-center mb-2 text-3xl font-bold">Follow Us</h1>
         <div class="social-icons text-black">
           <p class="btn bg-teal-700 cursor-pointer">Facebook</p>
           <p class="btn bg-teal-700 text-black cursor-pointer">Instagram</p>
@@ -56,19 +35,20 @@ const submitForm = (event) => {
 </template>
 
 <style>
-.intro{
+.intro {
   font-size: larger;
 }
+
 .bg {
-  background-color: #73A9AD;
+  background-color: #73a9ad;
 }
 
 .contact-section {
-  @apply flex justify-between items-start;
+  @apply flex flex-wrap justify-between;
 }
 
 .column {
-  @apply flex-1 p-4;
+  @apply w-full sm:w-1/2 lg:w-1/3 p-4;
 }
 
 .column h1 {
@@ -87,7 +67,6 @@ form input,
 form textarea,
 form button {
   @apply w-full;
-
 }
 
 .social-icons {
@@ -102,4 +81,15 @@ form button {
   @apply opacity-75;
 }
 
+@media (min-width: 640px) {
+  .column {
+    @apply w-1/2;
+  }
+}
+
+@media (min-width: 768px) {
+  .column {
+    @apply w-1/3;
+  }
+}
 </style>

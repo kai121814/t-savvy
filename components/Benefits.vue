@@ -54,15 +54,15 @@
 
 @keyframes float {
     0% {
-        transform: translateY(0);
+        transform: translateY(5px);
     }
 
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 
     100% {
-        transform: translateY(0);
+        transform: translateY(5px);
     }
 }
 
@@ -71,6 +71,6 @@
 }
 
 .animate-float {
-    animation: float 2s infinite;
+    animation: float 3s infinite;
 }
 </style>

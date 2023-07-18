@@ -6,19 +6,19 @@
       </div>
       <div class="w-full flex mx-auto justify-center items-stretch">
 
-        <div class="w-1/4 h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl self-center text-center dropshadow ">
+        <div class="w-1/4 h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
           <p class="text-3xl mb-7 font-bold">Online Sessions</p>
           <p class="text-lg">Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia
             aut unde voluptas. Qui tempora enim ex dolor animi ab deleniti laudantium.</p>
         </div>
 
-        <div class="w-1/4 h-96 p-7 bg-[#6DB3B8] m-4 rounded-3xl self-center text-center dropshadow">
+        <div class="w-1/4 h-96 p-7 bg-[#6DB3B8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
           <p class="text-3xl mb-7 font-bold">On-Site Sessions</p>
           <p class="text-lg">Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia 
             aut unde voluptas. Qui tempora enim ex dolor animi ab deleniti laudantium.</p>
         </div>
 
-        <div class="w-1/4 h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl self-center text-center dropshadow">
+        <div class="w-1/4 h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
           <p class="text-3xl mb-7 font-bold">Advanced Package</p>
           <p class="text-lg">Lorem ipsum dolor sit amet. Id consequuntur adipisci et voluptatem quia 
             aut unde voluptas. Qui tempora enim ex dolor animi ab deleniti laudantium.</p>
@@ -38,6 +38,22 @@
 }
 .BG{
   padding-bottom: 13%;
+}
+
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoom {
+  animation: zoom-in 2s forwards;
 }
 </style>
 

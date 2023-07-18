@@ -1,6 +1,6 @@
 <template>
   <div class="BG flex flex-col items-center mx-auto cursor-default" id="testimonies">
-    <h1 class="text-4xl md:text-6xl font-bold text-[#4AA3AA]">
+    <h1 class="text-4xl md:text-6xl font-bold text-[#4AA3AA] py-6">
       <span class="text-outline"></span>
       <span class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA]">Testimonies</span>
     </h1>
@@ -21,11 +21,11 @@
 
 <style>
 .circle {
-  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#B3C890] -ml-8 absolute top-1/2 left-0 transform -translate-y-1/2;
+  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#B3C890] -ml-4 absolute top-1/2 left-0 transform -translate-y-1/2;
 }
 
 .circle2 {
-  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#B3C890] -mr-8 absolute top-1/2 right-0 transform -translate-y-1/2;
+  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#B3C890] -mr-4 absolute top-1/2 right-0 transform -translate-y-1/2;
 }
 
 .custom-border {

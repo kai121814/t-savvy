@@ -1,25 +1,29 @@
 <template>
-  <div class="slideshow-container w-full mx-auto h-3/6 fade"  id="home">
+  <div class="slideshow-container w-full mx-auto h-auto fade" id="home">
     <div class="Containers">
-      <div class="MessageInfo">1 / 3</div>
-      <img src="~/assets/img/vision.png" class="carousel-image">
-      <div class="Info">First caption</div>
+      <div class="image-container">
+        <img src="~/assets/img/vision.png" class="carousel-image">
+        <div class="overlay"></div>
+        <div class="caption">
+          <h1 class="caption-header">Vision</h1>
+          <p class="caption-text">To empower and support developers in their career growth, foster a vibrant and collaborative community, and connect talented individuals with rewarding opportunities in the IT industry.</p>
+        </div>
+      </div>
     </div>
 
     <div class="Containers">
-      <div class="MessageInfo">2 / 3</div>
-      <img src="~/assets/img/vision.png" class="carousel-image">
-      <div class="Info">Second Caption</div>
+      <div class="image-container">
+        <img src="~/assets/img/mission.png" class="carousel-image">
+        <div class="overlay"></div>
+        <div class="caption">
+          <h1 class="caption-header">Mission</h1>
+          <p class="caption-text">To enhance the skills and knowledge of developers, facilitate networking and knowledge-sharing among community members, and assist job seekers in finding fulfilling roles in the IT Industry.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="Containers">
-      <div class="MessageInfo">3 / 3</div>
-      <img src="~/assets/img/vision.png" class="carousel-image">
-      <div class="Info">Third Caption</div>
-    </div>
-
-    <a class="Back" @click="plusSlides(-1)">&#10094;</a>
-    <a class="forward" @click="plusSlides(1)">&#10095;</a>
+    <a class="Back text-6xl" @click="plusSlides(-1)">&#10094;</a>
+    <a class="forward text-6xl" @click="plusSlides(1)">&#10095;</a>
   </div>
 
   <br>
@@ -27,7 +31,6 @@
   <div style="text-align:center">
     <span class="dots" @click="currentSlide(1)"></span>
     <span class="dots" @click="currentSlide(2)"></span>
-    <span class="dots" @click="currentSlide(3)"></span>
   </div>
 </template>
 
@@ -77,29 +80,53 @@ function slideShow(n) {
   @apply w-full object-cover;
 }
 
+.image-container {
+  @apply relative;
+}
+
+.overlay {
+  @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-[#B3C890] to-transparent;
+  mix-blend-mode: multiply;
+}
+
+.caption {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center;
+}
+
+.caption-header {
+  @apply text-[#4AA3AA] text-outline text-6xl font-bold mb-16;
+}
+.text-outline {
+  text-shadow: 0 0 5px white, 0 0 4px white, 0 0 4px white, 0 0 2px white;
+}
+.caption-text {
+  @apply text-white text-3xl;
+}
+
 .Containers {
   @apply hidden bg-no-repeat bg-contain;
 }
 
-.Back, .forward {
-  @apply cursor-pointer absolute top-1/2 text-neutral-500 font-bold text-xl rounded-full select-none;
-  @apply py-2 px-4;
+.Back,
+.forward {
+  @apply cursor-pointer absolute top-1/2 text-teal-500 font-bold rounded-full select-none;
+  @apply py-2 px-10;
   @apply -mt-12;
 }
 
 .forward {
-  @apply right-0 rounded-l-none;
+  @apply right-0 rounded-full;
 }
 
-.Back:hover, .forward:hover {
-  @apply bg-black bg-opacity-80;
+.Back:hover,
+.forward:hover {
+  @apply bg-teal-800 bg-opacity-50;
 }
 
 .Info {
   @apply text-white text-base absolute bottom-4 w-full text-center;
   @apply py-2 px-4;
   @apply bg-black bg-opacity-50;
-  
 }
 
 .MessageInfo {
@@ -111,7 +138,8 @@ function slideShow(n) {
   @apply cursor-pointer inline-block h-4 w-4 mx-1 bg-gray-300 rounded-full;
 }
 
-.enable, .dots:hover {
+.enable,
+.dots:hover {
   @apply bg-gray-700;
 }
 
@@ -120,7 +148,12 @@ function slideShow(n) {
 } */
 
 @keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
+  from {
+    opacity: .5
+  }
+
+  to {
+    opacity: 2
+  }
 }
 </style>

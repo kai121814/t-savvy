@@ -17,11 +17,11 @@
         </div>
         <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-80 m-3 p-5 flex text-center justify-center 
           blue-shadow animate-zoom">
-          <p class="text-[#076269] font-bold text-2xl">HTML, CSS JAVASCRIPT</p>
+          <p class="text-[#076269] font-bold text-2xl">HTML | CSS | JAVASCRIPT</p>
         </div>
         <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-96 m-3 p-5 flex text-center justify-center 
           blue-shadow animate-zoom">
-          <p class="text-[#076269] font-bold text-2xl">NUXT.JS TAILWINDCSS TYPESCRIPT</p>
+          <p class="text-[#076269] font-bold text-2xl">NUXT.JS | TAILWINDCSS | TYPESCRIPT</p>
         </div>
         <div class="bg-[#DBDFAA] self-center lg:w-1/5 sm:w-full lg:h-80 m-3 p-5 flex text-center justify-center 
           blue-shadow animate-zoom">

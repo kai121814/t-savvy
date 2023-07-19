@@ -2,22 +2,36 @@
   <div class="slideshow-container w-full mx-auto h-auto fade" id="home">
     <div class="Containers">
       <div class="image-container">
-        <img src="~/assets/img/vision.png" class="carousel-image">
         <div class="overlay"></div>
+        <div class="flex w-full bg-[#B2CB88] ">
+          <img src="~/assets/img/vision.png " class="carousel-image bg-[#B2CB88] ">
+          <div class="bg-[#B2CB88] w-1/3"></div>
+        </div>
+
         <div class="caption">
           <h1 class="caption-header">Vision</h1>
-          <p class="caption-text">To empower and support developers in their career growth, foster a vibrant and collaborative community, and connect talented individuals with rewarding opportunities in the IT industry.</p>
+          <p class="caption-text">To empower and support developers in their career growth, foster a vibrant and
+            collaborative community, and connect talented individuals with rewarding opportunities in the IT industry.</p>
         </div>
       </div>
     </div>
 
     <div class="Containers">
       <div class="image-container">
-        <img src="~/assets/img/mission.png" class="carousel-image">
-        <div class="overlay"></div>
+        <div class="flex flex-wrap w-full bg-[#B2CB88] ">
+          <div class="w-1/3 bg-black left-0 h-full"></div>
+          <div class="overlay2"></div>
+        </div>
+        
+        <div class="flex w-full bg-[#B2CB88] ">
+          <div class="bg-[#B2CB88] w-1/3"></div>
+          <img src="~/assets/img/mission.png" class="carousel-image bg-[#B2CB88] ">
+        </div>
         <div class="caption">
           <h1 class="caption-header">Mission</h1>
-          <p class="caption-text">To enhance the skills and knowledge of developers, facilitate networking and knowledge-sharing among community members, and assist job seekers in finding fulfilling roles in the IT Industry.</p>
+          <p class="caption-text">To enhance the skills and knowledge of developers, facilitate networking and
+            knowledge-sharing among community members, and assist job seekers in finding fulfilling roles in the IT
+            Industry.</p>
         </div>
       </div>
     </div>
@@ -77,7 +91,7 @@ function slideShow(n) {
 
 /* Image styling */
 .carousel-image {
-  @apply w-full object-cover;
+  @apply w-2/3 h-screen object-cover;
 }
 
 .image-container {
@@ -85,10 +99,11 @@ function slideShow(n) {
 }
 
 .overlay {
-  @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-[#B3C890] to-transparent;
-  mix-blend-mode: multiply;
+  @apply absolute top-0 left-0 h-full w-2/3 bg-gradient-to-l from-[#B2CB88] to-transparent;
 }
-
+.overlay2 {
+  @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-[#B2CB88] to-transparent;
+}
 .caption {
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center;
 }
@@ -96,9 +111,11 @@ function slideShow(n) {
 .caption-header {
   @apply text-[#4AA3AA] text-outline text-6xl font-bold mb-16;
 }
+
 .text-outline {
   text-shadow: 0 0 5px white, 0 0 4px white, 0 0 4px white, 0 0 2px white;
 }
+
 .caption-text {
   @apply text-white text-3xl;
 }

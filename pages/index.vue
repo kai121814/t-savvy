@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#F5F0BB] w-full">
     <Navbar /> <!-- //Joshii -->
-    <Carousel />
+    <!-- <Carousel /> -->
     <Lessons /> <!-- //Joshii -->
     <Benefits /> <!-- //Joshii -->
     <Packages />

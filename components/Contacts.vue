@@ -8,7 +8,8 @@
           <p class="mt-5 font-bold">Address</p>
           <p>In front of Ozamiz City Hall, 2nd floor of Mercury Drug/SSS, Ozamiz, Philippines</p>
           <p class="mt-5 font-bold">Email Address</p>
-          <p>techsavvy@gmail.com</p>
+          <p>info@codecamp-techsavvy.com</p>
+          <p>codedevsolutions@gmail.com</p>
         </div>
       </div>
       <div class="column mb-8">

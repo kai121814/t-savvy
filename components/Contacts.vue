@@ -27,9 +27,10 @@
       <div class="column mb-10">
         <h1 class="text-center mb-2 text-3xl font-bold">Follow Us</h1>
         <div class="social-icons text-black">
-          <p class="btn bg-teal-700 cursor-pointer">Facebook</p>
-          <p class="btn bg-teal-700 text-black cursor-pointer">Instagram</p>
-        </div>
+  <a href="https://www.facebook.com/TechSavvyCodeCamp" target="_blank" class="btn bg-teal-700 cursor-pointer">Facebook</a>
+  <a href="https://www.instagram.com/tech_savvy2023" target="_blank" class="btn bg-teal-700 text-black cursor-pointer">Instagram</a>
+</div>
+
       </div>
       <div class="w-full text-center text-white">
         <p>©2023 TechSavvy Codecamp</p>

@@ -10,11 +10,11 @@
     </div>
     <div class="border align-left relative custom-border">
       <div class="circle2"></div>
-      <p class="testimonial-text md:pr-1 pr-16">This Code Camp has helped me get the job of my dreams.</p>
+      <p class="testimonial-text md:pr-1 pr-16">I am now confident in my skills as a full stack web developer.</p>
     </div>
     <div class="border align-end relative custom-border">
       <div class="circle"></div>
-      <p class="testimonial-text text-sm md:text-3xl md:pl-1 pl-16">This Code Camp has helped me get the job of my dreams.</p>
+      <p class="testimonial-text text-sm md:text-3xl md:pl-1 pl-16">I landed a job using the e-Resume that I have built during this code camp.</p>
     </div>
   </div>
 </template>

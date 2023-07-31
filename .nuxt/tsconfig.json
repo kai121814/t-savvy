@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "allowJs": true,
-    "baseUrl": "C:/Users/Admin/Desktop/t-savvy",
+    "baseUrl": "C:/Users/Admin/Downloads/t-savvy",
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -18,64 +18,64 @@
     ],
     "paths": {
       "~": [
-        "C:/Users/Admin/Desktop/t-savvy"
+        "C:/Users/Admin/Downloads/t-savvy"
       ],
       "~/*": [
-        "C:/Users/Admin/Desktop/t-savvy/*"
+        "C:/Users/Admin/Downloads/t-savvy/*"
       ],
       "@": [
-        "C:/Users/Admin/Desktop/t-savvy"
+        "C:/Users/Admin/Downloads/t-savvy"
       ],
       "@/*": [
-        "C:/Users/Admin/Desktop/t-savvy/*"
+        "C:/Users/Admin/Downloads/t-savvy/*"
       ],
       "~~": [
-        "C:/Users/Admin/Desktop/t-savvy"
+        "C:/Users/Admin/Downloads/t-savvy"
       ],
       "~~/*": [
-        "C:/Users/Admin/Desktop/t-savvy/*"
+        "C:/Users/Admin/Downloads/t-savvy/*"
       ],
       "@@": [
-        "C:/Users/Admin/Desktop/t-savvy"
+        "C:/Users/Admin/Downloads/t-savvy"
       ],
       "@@/*": [
-        "C:/Users/Admin/Desktop/t-savvy/*"
+        "C:/Users/Admin/Downloads/t-savvy/*"
       ],
       "assets": [
-        "C:/Users/Admin/Desktop/t-savvy/assets"
+        "C:/Users/Admin/Downloads/t-savvy/assets"
       ],
       "assets/*": [
-        "C:/Users/Admin/Desktop/t-savvy/assets/*"
+        "C:/Users/Admin/Downloads/t-savvy/assets/*"
       ],
       "public": [
-        "C:/Users/Admin/Desktop/t-savvy/public"
+        "C:/Users/Admin/Downloads/t-savvy/public"
       ],
       "public/*": [
-        "C:/Users/Admin/Desktop/t-savvy/public/*"
+        "C:/Users/Admin/Downloads/t-savvy/public/*"
       ],
       "#app": [
-        "C:/Users/Admin/Desktop/t-savvy/node_modules/nuxt/dist/app"
+        "C:/Users/Admin/Downloads/t-savvy/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "C:/Users/Admin/Desktop/t-savvy/node_modules/nuxt/dist/app/*"
+        "C:/Users/Admin/Downloads/t-savvy/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "C:/Users/Admin/Desktop/t-savvy/node_modules/nuxt/dist/app/compat/vue-demi"
+        "C:/Users/Admin/Downloads/t-savvy/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
-        "C:/Users/Admin/Desktop/t-savvy/.nuxt/vue-router"
+        "C:/Users/Admin/Downloads/t-savvy/.nuxt/vue-router"
       ],
       "#imports": [
-        "C:/Users/Admin/Desktop/t-savvy/.nuxt/imports"
+        "C:/Users/Admin/Downloads/t-savvy/.nuxt/imports"
       ],
       "#build": [
-        "C:/Users/Admin/Desktop/t-savvy/.nuxt"
+        "C:/Users/Admin/Downloads/t-savvy/.nuxt"
       ],
       "#build/*": [
-        "C:/Users/Admin/Desktop/t-savvy/.nuxt/*"
+        "C:/Users/Admin/Downloads/t-savvy/.nuxt/*"
       ],
       "#components": [
-        "C:/Users/Admin/Desktop/t-savvy/.nuxt/components"
+        "C:/Users/Admin/Downloads/t-savvy/.nuxt/components"
       ]
     }
   },
@@ -83,14 +83,14 @@
     "./nuxt.d.ts",
     "../**/*",
     "../**/*",
-    "C:/Users/Admin/Desktop/t-savvy",
-    "C:/Users/Admin/Desktop/t-savvy/*",
-    "C:/Users/Admin/Desktop/t-savvy",
-    "C:/Users/Admin/Desktop/t-savvy/*",
-    "C:/Users/Admin/Desktop/t-savvy",
-    "C:/Users/Admin/Desktop/t-savvy/*",
-    "C:/Users/Admin/Desktop/t-savvy",
-    "C:/Users/Admin/Desktop/t-savvy/*"
+    "C:/Users/Admin/Downloads/t-savvy",
+    "C:/Users/Admin/Downloads/t-savvy/*",
+    "C:/Users/Admin/Downloads/t-savvy",
+    "C:/Users/Admin/Downloads/t-savvy/*",
+    "C:/Users/Admin/Downloads/t-savvy",
+    "C:/Users/Admin/Downloads/t-savvy/*",
+    "C:/Users/Admin/Downloads/t-savvy",
+    "C:/Users/Admin/Downloads/t-savvy/*"
   ],
   "exclude": [
     "../dist",

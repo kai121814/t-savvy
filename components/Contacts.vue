@@ -3,7 +3,7 @@
     <footer class="contact-section flex flex-wrap justify-between">
       <div class="column mb-8">
         <h1 class="text-center mb-2 text-3xl font-bold">About Us</h1>
-        <div class="intro">
+        <div class="intro text-center">
           <p class="mt-5 text-2xl font-bold">Welcome to Tech Savvy</p>
           <p class="mt-5 font-bold">Address</p>
           <p>In front of Ozamiz City Hall, 2nd floor of Mercury Drug/SSS, Ozamiz, Philippines</p>
@@ -24,12 +24,15 @@
           <button type="submit" class="bg-teal-700 text-white px-4 py-2">Send Message</button>
         </form>
       </div>
-      <div class="column">
+      <div class="column mb-10">
         <h1 class="text-center mb-2 text-3xl font-bold">Follow Us</h1>
         <div class="social-icons text-black">
           <p class="btn bg-teal-700 cursor-pointer">Facebook</p>
           <p class="btn bg-teal-700 text-black cursor-pointer">Instagram</p>
         </div>
+      </div>
+      <div class="w-full text-center text-white">
+        <p>©2023 TechSavvy Codecamp</p>
       </div>
     </footer>
   </div>

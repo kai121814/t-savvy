@@ -1,6 +1,6 @@
 <template>
   <div class="slideshow-container w-full mx-auto h-auto fade" id="home">
-    <div class="Containers">
+    <div class="Containers w-full">
       <div class="image-container">
         <div class="overlay"></div>
         <div class="flex w-full bg-[#B2CB88] ">
@@ -8,8 +8,8 @@
           <div class="bg-[#B2CB88] w-1/3"></div>
         </div>
 
-        <div class="caption">
-          <h1 class="caption-header">Vision</h1>
+        <div class="absolute top-1/2 lg:left-3/4 transform lg:-translate-x-1/2 -translate-y-1/2 text-white text-center lg:w-1/3 w-full px-10">
+          <h1 class="caption-header ">Vision</h1>
           <p class="caption-text">To empower and support developers in their career growth, foster a vibrant and
             collaborative community, and connect talented individuals with rewarding opportunities in the IT industry.</p>
         </div>
@@ -18,16 +18,13 @@
 
     <div class="Containers">
       <div class="image-container">
-        <div class="flex flex-wrap w-full bg-[#B2CB88] ">
-          <div class="w-1/3 bg-black left-0 h-full"></div>
-          <div class="overlay2"></div>
-        </div>
-        
+        <div class="absolute top-0 right-0 h-full w-2/3 bg-gradient-to-r from-[#B2CB88] to-transparent"></div>
+
         <div class="flex w-full bg-[#B2CB88] ">
           <div class="bg-[#B2CB88] w-1/3"></div>
           <img src="~/assets/img/mission.png" class="carousel-image bg-[#B2CB88] ">
         </div>
-        <div class="caption">
+        <div class="absolute top-1/2 lg:left-1/4 transform lg:-translate-x-1/2 -translate-y-1/2 text-white text-center lg:w-1/3 w-full px-10">
           <h1 class="caption-header">Mission</h1>
           <p class="caption-text">To enhance the skills and knowledge of developers, facilitate networking and
             knowledge-sharing among community members, and assist job seekers in finding fulfilling roles in the IT
@@ -36,8 +33,8 @@
       </div>
     </div>
 
-    <a class="Back text-6xl" @click="plusSlides(-1)">&#10094;</a>
-    <a class="forward text-6xl" @click="plusSlides(1)">&#10095;</a>
+    <a class="Back text-4xl lg:text-6xl" @click="plusSlides(-1)">&#10094;</a>
+    <a class="forward text-4xl lg:text-6xl" @click="plusSlides(1)">&#10095;</a>
   </div>
 
   <br>
@@ -101,15 +98,17 @@ function slideShow(n) {
 .overlay {
   @apply absolute top-0 left-0 h-full w-2/3 bg-gradient-to-l from-[#B2CB88] to-transparent;
 }
+
 .overlay2 {
   @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-[#B2CB88] to-transparent;
 }
+
 .caption {
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center;
 }
 
 .caption-header {
-  @apply text-[#4AA3AA] text-outline text-6xl font-bold mb-16;
+  @apply text-[#4AA3AA] text-outline lg:text-8xl text-3xl font-black lg:mb-16 mb-5;
 }
 
 .text-outline {
@@ -117,7 +116,7 @@ function slideShow(n) {
 }
 
 .caption-text {
-  @apply text-white text-3xl;
+  @apply text-white text-xl lg:text-3xl;
 }
 
 .Containers {
@@ -127,7 +126,7 @@ function slideShow(n) {
 .Back,
 .forward {
   @apply cursor-pointer absolute top-1/2 text-teal-500 font-bold rounded-full select-none;
-  @apply py-2 px-10;
+  @apply py-2 lg:px-10 px-2;
   @apply -mt-12;
 }
 

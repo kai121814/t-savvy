@@ -1,5 +1,5 @@
 
-import { defuFn } from 'C:/Users/Admin/Downloads/t-savvy/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'D:/t-savvy/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

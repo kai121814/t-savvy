@@ -1,10 +1,11 @@
 
 
 <template>
-  <div class="bg-[#F5F0BB] w-full">
+  <div class="bg-[#03372A] w-full">
     <Navbar /> <!-- //Joshii -->
-    <Carousel />
+    <Banner />
     
+    <VMO />
 
     <div class="hidden-section">
       <Lessons /> <!-- //Joshii -->

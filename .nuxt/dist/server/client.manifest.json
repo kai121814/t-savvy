@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "D:/t-savvy/node_modules/nuxt/dist/app/entry.js": {
+  "C:/Users/Admin/Downloads/t-savvy/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "D:/t-savvy/node_modules/nuxt/dist/app/entry.js"
+    "file": "C:/Users/Admin/Downloads/t-savvy/node_modules/nuxt/dist/app/entry.js"
   }
 }

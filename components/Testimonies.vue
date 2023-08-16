@@ -2,7 +2,7 @@
   <div class="BG flex flex-col items-center mx-auto cursor-default" id="testimonies">
     <h1 class="text-4xl md:text-6xl font-bold text-[#4AA3AA] py-6">
       <span class="text-outline"></span>
-      <span class="text-[#F5F0BB] px-3 bg-gradient-to-r to-[#9FBE6C] from-[#4AA3AA]">Testimonies</span>
+      <span class="text-[#F5F0BB] px-3 text-outline">Testimonies</span>
     </h1>
     <div class="border align-end relative custom-border">
       <div class="circle"></div>
@@ -20,16 +20,19 @@
 </template>
 
 <style>
+.text-outline {
+  text-shadow: 5px 5px 0 black, 5px 5px 0 black, 5px 5px 0 black, 5px 5px 0 black;
+}
 .circle {
-  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#B3C890] -ml-4 absolute top-1/2 left-0 transform -translate-y-1/2;
+  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#D6D6D6] -ml-4 absolute top-1/2 left-0 transform -translate-y-1/2;
 }
 
 .circle2 {
-  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#B3C890] -mr-4 absolute top-1/2 right-0 transform -translate-y-1/2;
+  @apply w-24 h-24 md:w-52 md:h-52 rounded-full bg-[#D6D6D6] -mr-4 absolute top-1/2 right-0 transform -translate-y-1/2;
 }
 
 .custom-border {
-  @apply border border-4 border-[#B3C890] bg-[#DBDFAA] py-4 md:py-12 px-3 md:px-5 rounded-md relative mb-4 md:mb-8 w-11/12 font-sans text-sm md:text-3xl;
+  @apply border border-4 border-white bg-transparent py-4 md:py-12 px-3 md:px-5 rounded-md relative mb-4 md:mb-8 w-11/12 font-sans text-sm md:text-3xl;
   border-radius: 40px;
 }
 

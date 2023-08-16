@@ -6,7 +6,7 @@
       </div>
       <div class="w-full flex flex-wrap mx-auto justify-center items-stretch">
 
-        <div class="lg:w-1/4 lg:h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
+        <div class="lg:w-1/4 lg:h-80 p-7 bg-[#DBDBDB] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
           <p class="text-3xl mb-2 font-bold">Online Sessions</p>
           <p class="text-base">With this package, clients will be able to experience the code camp without having to go to the workspace.</p>
           <hr class="border-solid border-4 rounded my-2">
@@ -17,7 +17,7 @@
           </ul>        
         </div>
 
-        <div class="lg:w-1/4 lg:h-96 p-7 bg-[#6DB3B8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
+        <div class="lg:w-1/4 lg:h-96 p-7 bg-[#C8C8C8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
           <p class="text-3xl mb-2 font-bold">Onsite Sessions</p>
           <p class="text-lg">With this package, clients will be able to fully experience the code camp in a face-to-face setting.</p>
           <p class="text-lg"> Experience the atmosphere of a professional, and company-like setting.</p>
@@ -29,7 +29,7 @@
           </ul>  
         </div>
 
-        <div class="lg:w-1/4 lg:h-80 p-7 bg-[#A7D5D8] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
+        <div class="lg:w-1/4 lg:h-80 p-7 bg-[#DBDBDB] m-4 rounded-3xl self-center text-center dropshadow animate-zoom">
           <p class="text-3xl mb-2 font-bold">Advanced Package</p>
           <p class="text-base">With this package, clients experienced in the field of IT, will be able to fully experience the code camp in a pace matching their knowledge. As well as dictate the setting for their learning.</p>
           <hr class="border-solid border-4 rounded my-2">

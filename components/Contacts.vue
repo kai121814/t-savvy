@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-black text-white cursor-default w-full" id="contacts">
+  <div class="bg-black text-white cursor-default w-full">
+    <div class="lg:pt-2 pt-16 w-full" id="contacts"></div>
     <footer class="contact-section flex flex-wrap justify-between">
       <div class="column mb-8">
         <h1 class="text-center mb-2 text-3xl font-bold">About Us</h1>

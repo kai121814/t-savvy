@@ -47,6 +47,7 @@ const toggleMobileMenu = () => {
         <nav class="hidden sm:block ">
           <ul class="flex space-x-4">
             <li><a class="navbar-link" @click="scrollToSection('home')">Home</a></li>
+            <li><a class="navbar-link" @click="scrollToSection('vmo')">VMO</a></li>
             <li><a class="navbar-link" @click="scrollToSection('lessons')">Lessons</a></li>
             <li><a class="navbar-link" @click="scrollToSection('benefits')">Benefits</a></li>
             <li><a class="navbar-link" @click="scrollToSection('packages')">Packages</a></li>
@@ -61,6 +62,7 @@ const toggleMobileMenu = () => {
     <div v-if="isMobileMenuOpen" class="sm:hidden bg-[#03372A] drop-shadow-md">
       <ul class="py-2 px-4">
         <li><a class="block py-2 navbar-link" @click="scrollToSection('home')">Home</a></li>
+        <li><a class="block py-2 navbar-link" @click="scrollToSection('vmo')">VMO</a></li>
         <li><a class="block py-2 navbar-link" @click="scrollToSection('lessons')">Lessons</a></li>
         <li><a class="block py-2 navbar-link" @click="scrollToSection('benefits')">Benefits</a></li>
         <li><a class="block py-2 navbar-link" @click="scrollToSection('packages')">Packages</a></li>

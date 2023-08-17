@@ -1,6 +1,7 @@
 <template>
-  <div class="BG w-full bg-[url('../assets/bg/BG2.png')] bg-no-repeat bg-cover cursor-default" id="packages">
-    <div class="w-full justify-center">
+  <div class="lg:pt-2 pt-16 bg-[#056951]" id="packages"></div>
+  <div class="BG w-full bg-[url('../assets/bg/BG2.png')] bg-no-repeat bg-cover cursor-default" >
+    <div class="w-full justify-center lg:pt-20">
       <div class="w-full flex mx-auto justify-center">
         <h1 class="my-10 lg:text-7xl text-5xl text-[#4AA3AA] px-3 font-black uppercase text-outline">Packages</h1>
       </div>

@@ -7,7 +7,8 @@
     
     <VMO />
 
-    <div class="hidden-section">
+    <div class="hidden-section" ><!-- data-aos="fade-right" -->
+      
       <Lessons /> <!-- //Joshii -->
     </div>
 
